@@ -1,0 +1,24 @@
+{
+  "name": "glockbot",
+  "version": "1.0.0",
+  "description": "Glock Bot Code",
+  "main": "DiscordTest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuitarGaming/GlockBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuitarGaming/GlockBot/issues"
+  },
+  "homepage": "https://github.com/GuitarGaming/GlockBot#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "text-table": "^0.2.0"
+  }
+}

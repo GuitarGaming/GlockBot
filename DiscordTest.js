@@ -1,3 +1,4 @@
+require('dotenv').config()
 const Discord = require('discord.js');                // Variable Declaration
 const client = new Discord.Client();
 const fs = require('fs');
@@ -193,4 +194,5 @@ function PostScoreboard(msg)
       msg.channel.send(output);
   }
 }
-client.login('NjYzNDI2Mjk0OTk4MTA2MTU0.XrhKXg.EgBqp7cDmBqW57hB_0zjGulz_sM');
+
+client.login(process.env.DISCORD_TOKEN);
