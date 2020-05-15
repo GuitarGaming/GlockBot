@@ -188,7 +188,7 @@ function PostScoreboard(msg)
           scoreboardFinal.push(row);
       }
       scoreboardFinal.sort(function(person1 , person2){
-        return person2[1]- person1[2]
+        return person2[2]- person1[2]
       });
       let output = "```" + table(scoreboardFinal, {align: ['l', 'l', 'r', 'r', 'l']}) + "```";
       msg.channel.send(output);
